@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+}
+.container {
+    padding: 150px 100px;
+    background-color: hsl(30, 54%, 90%);
+}
+.content__container {
+    margin: 0 auto;
+    max-width: 1100px;
+    background-color: hsl(0, 0%, 100%);
+    width: 80%;
+    padding: 3em ;
+}
+.omalette--heading {
+    color: hsl(24, 5%, 18%);
+}
+.subtopic--one {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+.intro--paragraph {
+   
+    font-weight: 400;
+}
+.highlight-text {
+    color: hsl(24, 5%, 18%);
+    font-weight:600;
+}
+.omelette-img {
+    width:100%;
+    
+} 
+
+.intro--text {
+    color:hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+ul {
+    padding: 0;
+    list-style-position: inside ;
+}
+ol {
+    list-style-position: initial;
+    padding: 1em;
+}
+ol > li{
+     padding-left: 0.8em;
+}
+.subtopic--three, .subtopic--two, .subtopic--four {
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
+    font-family: "Young Serif", serif;
+
+}
+#list--color li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+#list--color li {
+    color: hsl(30, 10%, 34%);
+    font-weight: 600;
+}
+.fourth--intro {
+    color: hsl(30, 10%, 34%);
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.text--ash {
+    color: hsl(30, 10%, 34%);
+    width: 30%;
+}
+.text--red {
+    width: 58%;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+.block--four,
+.block--two,
+.block--three {
+    margin: 3em 0;
+}
+.block--two {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1em;
+}
+li {
+    margin-bottom: 1em;
+}
+ .attribution {
+     font-size: 21px;
+     text-align: center;
+ }
+
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+ }
+
+ @media screen and (max-width: 480px) {
+   .container {
+    /* background-color: red; */
+    padding: 0;
+    background-color: none;
+    /* padding: 0; */
+   } 
+   .content__container {
+    width: 100%;
+    padding: 0 2em;
+   }
+ }
